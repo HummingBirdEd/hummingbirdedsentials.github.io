@@ -33,6 +33,24 @@ section {
   padding-top: 2rem;
 }
 
+/* Default styling for all screens (e.g., mobile) */
+p {
+  font-size: 1.2rem;
+  margin: 1rem auto;
+  padding: 0 1rem;
+}
+
+/* Desktop-specific styling (apply ONLY on larger screens) */
+@media (min-width: 768px) {
+  p {
+    max-width: 400px; /* Adjust to get about 4 lines visually */
+    line-height: 1.6;
+    margin: 1rem auto; /* Centers horizontally */
+    text-align: center;
+  }
+}
+
+
 
 <!DOCTYPE html>
 <html lang="en">
