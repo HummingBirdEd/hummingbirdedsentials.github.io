@@ -7,6 +7,22 @@ body {
   padding: 0;
 }
 
+/* Center all text */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center; /* ← This is the key */
+  margin: 0;
+  padding: 0;
+}
+
+/* Optional: remove left alignment from sections */
+section {
+  text-align: center;
+  padding: 20px;
+}
+
 /* Center image class */
 .center-img {
   display: block;
