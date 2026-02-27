@@ -70,6 +70,17 @@ p {
       <h2>Our Mission</h2>
       <p>Empowering your everyday life with essential products for wellness and simplicity.</p>
     </section>
+      .booking-btn{
+  display:inline-block;
+  padding:12px 18px;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:600;
+}
+
+.booking-btn:hover{
+  opacity:0.9;
+}
   </main>
   <footer>
     <p>&copy; 2026 Hummingbird Essentials</p>
