@@ -69,16 +69,20 @@ p {
     <section>
       <h2>Our Mission</h2>
       <p>Empowering your everyday life with essential products for wellness and simplicity.</p>
-.booking-btn{
+.contact-btn{
   display:inline-block;
-  padding:12px 18px;
-  border-radius:10px;
+  background:#ffd400;   /* yellow */
+  color:#000;           /* black text */
+  padding:16px 26px;    /* makes it larger */
+  font-size:20px;       /* larger text */
+  font-weight:700;
+  border-radius:12px;
   text-decoration:none;
-  font-weight:600;
+  margin-top:14px;
 }
 
-.booking-btn:hover{
-  opacity:0.9;
+.contact-btn:hover{
+  opacity:0.92;
 }
     </section>
   </main>
