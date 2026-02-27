@@ -50,6 +50,21 @@ p {
   }
 }
 
+.contact-btn{
+  display:inline-block;
+  background:#ffd400;
+  color:#000;
+  padding:16px 26px;
+  font-size:20px;
+  font-weight:700;
+  border-radius:12px;
+  text-decoration:none;
+  margin-top:14px;
+}
+
+.contact-btn:hover{
+  opacity:0.92;
+}
 
 
 <!DOCTYPE html>
@@ -69,21 +84,7 @@ p {
     <section>
       <h2>Our Mission</h2>
       <p>Empowering your everyday life with essential products for wellness and simplicity.</p>
-.contact-btn{
-  display:inline-block;
-  background:#ffd400;   /* yellow */
-  color:#000;           /* black text */
-  padding:16px 26px;    /* makes it larger */
-  font-size:20px;       /* larger text */
-  font-weight:700;
-  border-radius:12px;
-  text-decoration:none;
-  margin-top:14px;
-}
 
-.contact-btn:hover{
-  opacity:0.92;
-}
     </section>
   </main>
   <footer>
