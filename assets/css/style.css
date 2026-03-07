@@ -57,6 +57,30 @@ p {
   }
 }
 
+
+/* ========================= */
+/* Css for button style*/
+.button-group{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  margin-top:30px;
+}
+
+.btn{
+  padding:12px 24px;
+  background:#4f46e5;
+  color:white;
+  text-decoration:none;
+  border-radius:6px;
+  font-weight:bold;
+  font-size:16px;
+  transition:0.3s;
+}
+
+.btn:hover{
+  background:#3730a3;
+}
 /* ========================= */
 /*     PAGE NAVIGATION      */
 /* ========================= */
