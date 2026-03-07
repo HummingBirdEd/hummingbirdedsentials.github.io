@@ -50,6 +50,20 @@ p {
   }
 }
 
+/* ========================= */
+/*     PAGE NAVIGATION      */
+/* ========================= */
+.page-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Adds spacing between buttons */
+    margin-top: 20px; /* Adjusts spacing below the logo */
+}
+
+/* Navigation Buttons */
+.page-buttons a {
+    text-decoration: none;
+}
 .contact-btn{
   display:inline-block;
   background:#ffd400;
