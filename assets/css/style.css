@@ -85,17 +85,27 @@ a {
 }
 
 .site-nav a,
-.footer-links a,
-.feature-card a,
-.text-link {
+.footer-links a {
   text-decoration: none;
 }
 
 .site-nav a:hover,
-.footer-links a:hover,
+.footer-links a:hover {
+  color: var(--teal);
+}
+
+/* In-content text links: underlined so users see they're interactive. */
+.feature-card a,
+.text-link {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
 .feature-card a:hover,
 .text-link:hover {
-  color: var(--teal);
+  text-decoration-thickness: 3px;
+  color: var(--accent);
 }
 
 .nav-cta,
