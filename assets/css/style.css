@@ -1,16 +1,20 @@
 :root {
-  --ink: #19201f;
-  --muted: #5f6b68;
-  --line: #dbe4df;
-  --paper: #fbfaf6;
-  --soft: #eef5f0;
+  /* Palette pulled from the HummingBird logo: navy wordmark + magenta/coral/yellow/teal/cyan gradient. */
+  --ink: #0f1b2e;
+  --muted: #5e6877;
+  --line: #e5e9f0;
+  --paper: #fffcf8;
+  --soft: #fff0f6;
   --white: #ffffff;
-  --deep: #123a35;
-  --deep-2: #0d2d29;
-  --accent: #d89b2b;
-  --accent-2: #a46135;
-  --teal: #2d7a72;
-  --shadow: 0 18px 50px rgba(22, 48, 44, 0.14);
+  --deep: #0f1b2e;
+  --deep-2: #1a2840;
+  --accent: #e91e8c;
+  --accent-2: #f25e45;
+  --teal: #1fb6b7;
+  --cyan: #16a5e5;
+  --yellow: #fbba1b;
+  --shadow: 0 18px 50px rgba(15, 27, 46, 0.16);
+  --logo-gradient: linear-gradient(135deg, #e91e8c 0%, #f25e45 28%, #fbba1b 56%, #1fb6b7 82%, #16a5e5 100%);
 }
 
 * {
@@ -47,8 +51,9 @@ a {
   justify-content: space-between;
   gap: 24px;
   padding: 14px clamp(20px, 4vw, 56px);
-  background: rgba(251, 250, 246, 0.94);
-  border-bottom: 1px solid rgba(219, 228, 223, 0.9);
+  background: rgba(255, 252, 248, 0.94);
+  border-bottom: 3px solid transparent;
+  border-image: var(--logo-gradient) 1;
   backdrop-filter: blur(14px);
 }
 
@@ -109,13 +114,13 @@ a {
 
 .nav-cta,
 .btn-primary {
-  background: var(--deep);
+  background: var(--accent);
   color: var(--white);
 }
 
 .nav-cta:hover,
 .btn-primary:hover {
-  background: var(--deep-2);
+  background: var(--accent-2);
   transform: translateY(-1px);
 }
 
@@ -126,7 +131,8 @@ a {
 }
 
 .btn-secondary:hover {
-  border-color: var(--teal);
+  border-color: var(--accent);
+  color: var(--accent);
   transform: translateY(-1px);
 }
 
@@ -138,8 +144,13 @@ a {
   min-height: calc(100vh - 76px);
   padding: clamp(44px, 7vw, 96px) clamp(20px, 6vw, 96px) clamp(28px, 4vw, 56px);
   background:
-    linear-gradient(120deg, rgba(238, 245, 240, 0.96), rgba(251, 250, 246, 0.78)),
-    var(--soft);
+    linear-gradient(135deg,
+      rgba(233, 30, 140, 0.07) 0%,
+      rgba(242, 94, 69, 0.05) 28%,
+      rgba(251, 186, 27, 0.05) 56%,
+      rgba(31, 182, 183, 0.06) 82%,
+      rgba(22, 165, 229, 0.08) 100%),
+    var(--paper);
 }
 
 .hero-copy {
@@ -363,10 +374,23 @@ h3 {
 
 .topic-list article,
 .feature-card.dark {
+  position: relative;
   padding: 26px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+}
+
+.topic-list article::before,
+.feature-card.dark::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--logo-gradient);
 }
 
 .topic-list p,
@@ -448,8 +472,10 @@ blockquote {
   justify-content: space-between;
   gap: 24px;
   padding: 32px clamp(20px, 6vw, 96px);
-  background: #0b211f;
+  background: var(--ink);
   color: var(--white);
+  border-top: 3px solid transparent;
+  border-image: var(--logo-gradient) 1;
 }
 
 .site-footer p {
