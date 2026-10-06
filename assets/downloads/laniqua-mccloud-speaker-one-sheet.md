@@ -5,7 +5,7 @@ Educational Specialist | Speaker | Master Trainer | Autism Family Advocacy Strat
 Founder & CEO, HummingBird Edsentials  
 Las Vegas, Nevada | Available across Nevada and for virtual programs
 
-LaNiqua McCloud helps schools, organizations, and families turn autism advocacy into practical leadership, resilience, and inclusive support systems. As an Educational Specialist, Master Trainer and Master Facilitator, Master Instructional Designer, and author of *Birth of an Advocate: Living Above the Spectrum*, LaNiqua brings together lived experience, evidence-based learning design, leadership development, and parent advocacy coaching.
+LaNiqua McCloud helps schools, organizations, and families turn autism advocacy into practical leadership, resilience, and inclusive support systems. As an Educational Specialist, Master Trainer, Master Facilitator, and Instructional Designer (all certified by the Association for Talent Development), a UNLV-certified Autism Fundamentals Specialist, and author of *Birth of an Advocate: Living Above the Spectrum*, LaNiqua brings together lived experience, evidence-based learning design, leadership development, and parent advocacy consulting.
 
 ## Signature Speaking Topics
 
@@ -37,7 +37,7 @@ LaNiqua McCloud helps schools, organizations, and families turn autism advocacy 
 - Founder & CEO of HummingBird Edsentials
 - Author of *Birth of an Advocate: Living Above the Spectrum*
 - Creator of the 14 Days Resilience Ready Workbook/toolkit
-- Womelle's 2025 Top 15 Coaches
+- Named to Womelle's 2025 Top 15 list
 - Guest on *Autism for Badass Moms Podcast*
 - Featured speaker at the 2021 "I Am Worth It" Conference in Las Vegas
 
