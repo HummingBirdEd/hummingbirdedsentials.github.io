@@ -47,7 +47,7 @@ index 8b13789..1874b84 100644
 +        <h2>HummingBird Edsentials bridges professional excellence with purpose-driven advocacy.</h2>
 +      </div>
 +      <div class="copy-stack">
-+        <p>LaNiqua McCloud is an Educational Specialist, Speaker, Empowerment Strategist, Master Trainer, Master Facilitator, Master Instructional Designer, and Founder & CEO of HummingBird Edsentials.</p>
++        <p>LaNiqua McCloud is an Educational Specialist, Speaker, Empowerment Strategist, Master Trainer, Master Facilitator, Instructional Designer, and Founder & CEO of HummingBird Edsentials.</p>
 +        <p>Her work integrates instructional design, facilitation strategy, cognitive learning principles, leadership development, and lived experience. She designs training programs that help educators, organizations, community leaders, and families move from insight to action.</p>
 +        <p>As the author of <em>Birth of an Advocate: Living Above the Spectrum</em>, LaNiqua supports families navigating autism while cultivating strong advocates and empowered leaders.</p>
 +      </div>
@@ -851,7 +851,7 @@ index 6561c47..d038870 100644
    <main>
 -    <section>
 -      <h2>Our Mission</h2>
--      <p>HummingBird Edsentials serves as a one-stop shop for leadership development, professional training, and autism parent coaching bridging evidence-based learning design, lived experience, and practical advocacy tools to empower leaders, educators, and families to grow with intention and lead with confidence.</p>
+-      <p>HummingBird Edsentials serves as a one-stop shop for leadership development, professional training, and autism parent consulting bridging evidence-based learning design, lived experience, and practical advocacy tools to empower leaders, educators, and families to grow with intention and lead with confidence.</p>
 +    <section class="hero">
 +      <div class="hero-copy">
 +        <p class="eyebrow">Autism advocacy, education, and resilience training</p>
@@ -877,7 +877,7 @@ index 6561c47..d038870 100644
 +      <span>Author</span>
 +      <span>Master Trainer</span>
 +      <span>Master Facilitator</span>
-+      <span>Master Instructional Designer</span>
++      <span>Instructional Designer</span>
 +    </section>
  
 -    <!-- this is version 2 of buttons 
@@ -943,7 +943,7 @@ index 6561c47..d038870 100644
 +        <h2>LaNiqua McCloud, Psy.M</h2>
 +        <p>LaNiqua is an Educational Specialist, Speaker, Empowerment Strategist, Founder & CEO of HummingBird Edsentials, and author of <em>Birth of an Advocate: Living Above the Spectrum</em>. Her work helps families, educators, and organizations turn autism advocacy into practical leadership and people-centered impact.</p>
 +        <ul class="check-list">
-+          <li>Womelle's 2025 Top 15 Coaches</li>
++          <li>Named to Womelle's 2025 Top 15 list</li>
 +          <li>Guest on <em>Autism for Badass Moms Podcast</em></li>
 +          <li>Featured speaker at the 2021 "I Am Worth It" Conference in Las Vegas</li>
 +        </ul>
@@ -1109,10 +1109,10 @@ index 60ad246..6ac8afb 100644
 -
 -<section>
 -
--<h2>Autism Parent Coaching Strategy Session</h2>
+-<h2>Autism Parent Consulting Strategy Session</h2>
 -
 -<p>
--This private coaching session is designed for parents and caregivers seeking
+-This private consulting session is designed for parents and caregivers seeking
 -clarity, confidence, and a strategic path forward in their autism journey.
 -</p>
 -
